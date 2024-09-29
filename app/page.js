@@ -13,7 +13,7 @@ export default function Home() {
         <div className="flex gap-3 items-center">
           <h1 className="text-7xl text-gray-900">Less waste. <span className="font-bold">More giving.</span></h1>
         </div>
-        <p className="text-xl mt-10 opacity-90 max-w-[38%]">We help connect local businesses with local charities, providing a direct pipeline for surplus food exchange.</p>
+        <p className="text-xl mt-10 opacity-90 max-w-[38%] leading-loose">We help connect local businesses with local charities, providing a direct pipeline for surplus food exchange.</p>
 
         <Button
           className="text-white mt-24 w-[20%] bg-black"

@@ -1,50 +1,10 @@
 'use client';
 
 import NavBar from '@/comps/Nav';
-import { useState } from 'react';
-import { RadioGroup, Radio, useRadio, VisuallyHidden, cn, Input } from "@nextui-org/react";
+import Radio from '@/comps/Radio';
+import { RadioGroup, Radio, Input } from "@nextui-org/react";
 import { setCookie } from 'cookies-next';
-import { redirect } from 'next/dist/server/api-utils';
 import { useRouter } from 'next/navigation';
-
-export const CustomRadio = (props) => {
-  const {
-    Component,
-    children,
-    isSelected,
-    description,
-    getBaseProps,
-    getWrapperProps,
-    getInputProps,
-    getLabelProps,
-    getLabelWrapperProps,
-    getControlProps,
-  } = useRadio(props);
-
-  return (
-    <Component
-      {...getBaseProps()}
-      className={cn(
-        "group inline-flex items-center hover:opacity-70 active:opacity-50 justify-between flex-row-reverse tap-highlight-transparent",
-        "max-w-[300px] cursor-pointer border-2 border-default rounded-lg gap-4 p-4",
-        "data-[selected=true]:border-primary",
-      )}
-    >
-      <VisuallyHidden>
-        <input {...getInputProps()} />
-      </VisuallyHidden>
-      <span {...getWrapperProps()}>
-        <span {...getControlProps()} />
-      </span>
-      <div {...getLabelWrapperProps()}>
-        {children && <span {...getLabelProps()}>{children}</span>}
-        {description && (
-          <span className="text-small text-foreground opacity-70">{description}</span>
-        )}
-      </div>
-    </Component>
-  );
-};
 
 export default function RegisterPage() {
   const router = useRouter();
@@ -85,8 +45,8 @@ export default function RegisterPage() {
             className="md:col-span-2"
             required
           >
-            <CustomRadio value="charity">We are a charity</CustomRadio>
-            <CustomRadio value="business">We are a business</CustomRadio>
+            <Radio value="charity">We are a charity</Radio>
+            <Radio value="business">We are a business</Radio>
           </RadioGroup>
 
           <button

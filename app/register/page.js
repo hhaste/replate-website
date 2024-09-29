@@ -2,7 +2,7 @@
 
 import NavBar from '@/comps/Nav';
 import Radio from '@/comps/Radio';
-import { RadioGroup, Radio, Input } from "@nextui-org/react";
+import { RadioGroup, Input } from "@nextui-org/react";
 import { setCookie } from 'cookies-next';
 import { useRouter } from 'next/navigation';
 

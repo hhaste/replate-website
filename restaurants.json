@@ -1,0 +1,190 @@
+{
+    "Zingerman's Delicatessen": [
+        {
+            "Dish": "Zingerman's Reuben",
+            "Ingredients": "Corned beef, Swiss cheese, sauerkraut, Russian dressing, rye bread",
+            "Allergies": "Gluten, dairy",
+            "Halal": "No",
+            "Quality Value": 8.4,
+            "Package Level": "Fully-Packed",
+            "Location": "422 Michigan Ave, Ann Arbor, MI",
+            "Picture": "https://www.zingermansdeli.com/app/uploads/2022/04/14_03_2_Zingermans_Reuben2-1024x683.jpg"
+        },
+        {
+            "Dish": "Smoked Turkey Breast Sandwich",
+            "Ingredients": "Smoked turkey, lettuce, tomato, mayo, pumpernickel bread",
+            "Allergies": "Gluten, dairy",
+            "Halal": "No",
+            "Quality Value": 7.9,
+            "Package Level": "Half-Packed",
+            "Location": "422 Michigan Ave, Ann Arbor, MI",
+            "Picture": "https://www.zingermansdeli.com/app/uploads/2022/11/zingermans-turkey-sandwiches.jpg"
+        }
+    ],
+    "Frita Batidos": [
+        {
+            "Dish": "Frita Original",
+            "Ingredients": "Cuban chorizo, fries, mayo, Cuban bread",
+            "Allergies": "Gluten, egg",
+            "Halal": "No",
+            "Quality Value": 8.6,
+            "Package Level": "Fully-Packed",
+            "Location": "117 W Washington St, Ann Arbor, MI",
+            "Picture": "https://clovereats.com/wp-content/uploads/2014/07/fritabatidos-10.jpg?w=1545"
+        },
+        {
+            "Dish": "Batido de Coco",
+            "Ingredients": "Coconut milk, cinnamon, lime, ice",
+            "Allergies": "Dairy (if made with cream)",
+            "Halal": "Yes (if no cream)",
+            "Quality Value": 9.1,
+            "Package Level": "Low-Packaged",
+            "Location": "117 W Washington St, Ann Arbor, MI",
+            "Picture": "https://www.mlive.com/resizer/v2/XXUDS5KKGZDETIGQFCGWVJXSPU.JPG?auth=651db06e7eb085e7e263f2eb170b3944eba20b17408c5dd399f3feeb11861597&width=1280&quality=90"
+        }
+    ],
+    "Sava's": [
+        {
+            "Dish": "Truffle Fries",
+            "Ingredients": "Potatoes, truffle oil, parmesan, parsley",
+            "Allergies": "Dairy",
+            "Halal": "Yes",
+            "Quality Value": 9.0,
+            "Package Level": "Half-Packed",
+            "Location": "211 S State St, Ann Arbor, MI",
+            "Picture": "https://s3-media0.fl.yelpcdn.com/bphoto/TMFUpSyGXoKM_QnJVvVbRQ/348s.jpg"
+        },
+        {
+            "Dish": "Sava’s Bolognese",
+            "Ingredients": "House-made pasta, ground beef, tomatoes, herbs",
+            "Allergies": "Gluten, dairy",
+            "Halal": "No",
+            "Quality Value": 8.3,
+            "Package Level": "Fully-Packed",
+            "Location": "211 S State St, Ann Arbor, MI",
+            "Picture": "https://savaskitchen.com/wp-content/uploads/2023/06/spaghetti-alla-bolognese.jpg"
+        }
+    ],
+    "Aventura": [
+        {
+            "Dish": "Patatas Bravas",
+            "Ingredients": "Potatoes, olive oil, garlic, spicy tomato sauce",
+            "Allergies": "None",
+            "Halal": "Yes",
+            "Quality Value": 8.8,
+            "Package Level": "Low-Packaged",
+            "Location": "110 S Main St, Ann Arbor, MI",
+            "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThgQQ1FbOHjPnktoPka5IN5AUZbwamSAQTlA&s"
+        },
+        {
+            "Dish": "Gambas al Ajillo",
+            "Ingredients": "Shrimp, garlic, olive oil, chili",
+            "Allergies": "Shellfish",
+            "Halal": "No",
+            "Quality Value": 9.2,
+            "Package Level": "Half-Packed",
+            "Location": "110 S Main St, Ann Arbor, MI",
+            "Picture": "https://www.foodandwine.com/thmb/6oZOwysQLIXqVUdPJLHrYiuTHSU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gambas-al-ajillo-XL-RECIPE0917-05ade57af5194eaeba60a87b258d46f2.jpg"
+        }
+    ],
+    "Mani Osteria & Bar": [
+        {
+            "Dish": "Margherita Pizza",
+            "Ingredients": "Pizza dough, mozzarella, tomato sauce, basil",
+            "Allergies": "Gluten, dairy",
+            "Halal": "No",
+            "Quality Value": 8.7,
+            "Package Level": "Fully-Packed",
+            "Location": "341 E Liberty St, Ann Arbor, MI",
+            "Picture": "https://s3-media0.fl.yelpcdn.com/bphoto/M5QwcWbHganyWJz4FvkgeA/348s.jpg"
+        },
+        {
+            "Dish": "Polenta Fries",
+            "Ingredients": "Polenta, oil, salt, herbs",
+            "Allergies": "None",
+            "Halal": "Yes",
+            "Quality Value": 8.5,
+            "Package Level": "Low-Packaged",
+            "Location": "341 E Liberty St, Ann Arbor, MI",
+            "Picture": "https://www.halfbakedharvest.com/wp-content/uploads/2020/07/Garlic-Parmesan-Herb-Butter-Polenta-Fries-with-Lemon-Aioli-1.jpg"
+        }
+    ],
+    "The Chop House": [
+        {
+            "Dish": "Filet Mignon",
+            "Ingredients": "Beef filet, seasoning, butter",
+            "Allergies": "None",
+            "Halal": "No",
+            "Quality Value": 9.3,
+            "Package Level": "Fully-Packed",
+            "Location": "3225 S State St, Ann Arbor, MI",
+            "Picture": "https://static.spotapps.co/spots/e8/e02c941f4b45f094ec60620d2e67fd/full"
+        },
+        {
+            "Dish": "Lobster Bisque",
+            "Ingredients": "Lobster, cream, broth, herbs",
+            "Allergies": "Shellfish, dairy",
+            "Halal": "No",
+            "Quality Value": 8.9,
+            "Package Level": "Half-Packed",
+            "Location": "3225 S State St, Ann Arbor, MI",
+            "Picture": "https://hendersoncastle.com/application/files/2417/0231/9503/H-Chop-House-Banner-Henderson-Castle-Best-Bed-_and_-Breafast-Michigan-1.jpg"
+        }
+    ],
+    "Tomukun Noodle Bar": [
+        {
+            "Dish": "Pork Ramen",
+            "Ingredients": "Pork broth, ramen noodles, pork belly, egg, scallions",
+            "Allergies": "Gluten, egg",
+            "Halal": "No",
+            "Quality Value": 8.4,
+            "Package Level": "Fully-Packed",
+            "Location": "1321 S University Ave, Ann Arbor, MI",
+            "Picture": "https://images.squarespace-cdn.com/content/v1/57dcaa0b3e00be77ca9a9c6f/1485324193700-W7QJJ5WEXT607MLM0K9P/image-asset.jpeg?format=500w"
+        },
+        {
+            "Dish": "Beef Pho",
+            "Ingredients": "Beef broth, rice noodles, beef, herbs",
+            "Allergies": "Gluten",
+            "Halal": "Yes (if beef is halal)",
+            "Quality Value": 8.6,
+            "Package Level": "Half-Packed",
+            "Location": "1321 S University Ave, Ann Arbor, MI",
+            "Picture": "https://s3-media0.fl.yelpcdn.com/bphoto/sgkjYIwhzSx2A7FD0q1npA/o.jpg"
+        }
+    ],
+    "Pacific Rim by Kana": [
+        {
+            "Dish": "Tuna Tataki",
+            "Ingredients": "Tuna, soy sauce, sesame oil, green onions",
+            "Allergies": "Fish, soy",
+            "Halal": "Yes (if tuna is sourced from halal providers)",
+            "Quality Value": 9.1,
+            "Package Level": "Low-Packaged",
+            "Location": "101 S Main St, Ann Arbor, MI",
+            "Picture": "https://rachlifevoice.wordpress.com/wp-content/uploads/2013/02/p1040008.jpg?w=487"
+        },
+        {
+            "Dish": "Miso-Glazed Salmon",
+            "Ingredients": "Salmon, miso paste, sugar, soy sauce",
+            "Allergies": "Fish, soy",
+            "Halal": "Yes (if salmon is sourced from halal providers)",
+            "Quality Value": 9.0,
+            "Package Level": "Fully-Packed",
+            "Location": "101 S Main St, Ann Arbor, MI",
+            "Picture": "https://media-cdn.tripadvisor.com/media/photo-s/0d/bb/08/cf/salmon-and-tuna-and-chicken.jpg"
+        }
+    ],
+    "Blue Tractor BBQ & Brewery": [
+        {
+            "Dish": "Pulled Pork Sandwich",
+            "Ingredients": "Pulled pork, BBQ sauce, bun, coleslaw",
+            "Allergies": "Gluten, dairy (in coleslaw)",
+            "Halal": "No",
+            "Quality Value": 8.2,
+            "Package Level": "Fully-Packed",
+            "Location": "207 E Washington St, Ann Arbor, MI",
+            "Picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRIcVMGw8y-BR_8JcdH-pvKFv4el8AnJCSSw&s"
+        }
+    ]
+}

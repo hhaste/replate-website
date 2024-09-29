@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import NavBar from "../comps/Nav";
 import { Button } from "@nextui-org/react";
-
+import restaurants from "../restaurants.json";
 
 import { useState, useEffect, useRef } from 'react'
 import { ChevronUpIcon, ChevronDownIcon, SendIcon } from 'lucide-react'
@@ -33,14 +33,14 @@ export default function Home() {
     setIsLoading(true)
 
     try {
-      const response = await fetch('/get-restaurants', {
+      const response = await fetch('https://api.woof.rocks/get-restaurants', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           input: input,
-          data: {} // You can add restaurant data here if needed
+          data: JSON.stringify(restaurants)
         }),
       })
 
@@ -131,13 +131,14 @@ export default function Home() {
         ) : (
           <button
             onClick={() => setIsOpen(true)}
-            className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300 ease-in-out transform hover:scale-110"
+            className="bg-warning flex gap-3 text-white p-3 px-5 rounded-full shadow-lg focus:outline-none focus:ring-2 transition-all duration-300 ease-in-out transform hover:scale-110"
           >
-            <ChevronUpIcon className="w-6 h-6" /> Ask Assistant
+            {/* <ChevronUpIcon className="w-6 h-6" /> Ask Assistant */}
+            <img src="chat.svg"/> Ask assistant
           </button>
         )}
       </div>
     </div>
   )
 }
-  
+
